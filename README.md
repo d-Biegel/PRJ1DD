@@ -1,5 +1,7 @@
 # PRJ1DD - Direct Deposit Batch Program
-An example of a scheduled Direct Deposit program that is resposible for paying employees. Takes input data from 3 sequential filesfiles (Names, Tax Rates, Pay Rates), calculates normal pay based on rate, determines if the employee is eligible for overtime payand witholds payroll taxes that are due. Then formats and prints out each payment calculation + account info to the sysout.
+An example of a scheduled Direct Deposit program that is responsible for paying employees. Takes input data from 3 sequential files (Names, Tax Rates, Pay Rates), calculates normal pay based on rate, determines if the employee is eligible for overtime pay and withholding payroll taxes that are due. Then formats and prints out each payment calculation + account info to the sysout.
+
+#### DEMO VIDEO LINK <a href="https://youtu.be/5Blt1zT6Mwk">HERE</a>!
 
 COMPILES ON MVS 3.8 TK5 - FITS COBOL 68 STANDARD
 
@@ -11,7 +13,7 @@ You will need to have the following folders/files created:
 - PRJ1.DEV.INPUT.NAMES - for input name + account info dataset
 - PRJ1.DEV.INPUT.TAXES - for input tax rate dataset
 - PRJ1.DEV.INPUT.RATES - for input pay rate dataset
-(NOTE: if you use the 0-FULL-PRJ1-SETUP.jcl, you wont have to create all these manually)
+- (NOTE: if you use the 0-FULL-PRJ1-SETUP.jcl, you wont have to create all these manually)
 
 ## How to setup:
 ### SHORT WAY:
